@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="listeners.ExtentReporterNG"/>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="coverFox_Test.Validate_result_for_healthCare"/>
+      <class name="coverFox_Test.Validate_errorMsg_for_Pincode_Field"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
