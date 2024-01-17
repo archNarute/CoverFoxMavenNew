@@ -22,3 +22,51 @@
 2024-01-12 13:19:26,228 [main] INFO CoverFoxLog - fetching result from banner
 2024-01-12 13:19:33,348 [main] INFO CoverFoxLog - TC is passed
 2024-01-12 13:19:33,588 [main] INFO CoverFoxLog - closing browser
+2024-01-17 12:45:27,822 [main] INFO CoverFoxLog - launching CoverFox
+2024-01-17 12:45:39,698 [main] INFO CoverFoxLog - clicking on female button
+2024-01-17 12:45:43,672 [main] WARN CoverFoxLog - clicking on next button
+2024-01-17 12:45:45,825 [main] INFO CoverFoxLog - selecting age from dropDown
+2024-01-17 12:45:48,447 [main] INFO CoverFoxLog - clicking on next button
+2024-01-17 12:45:50,799 [main] ERROR CoverFoxLog - entering zipcode
+2024-01-17 12:45:51,307 [main] FATAL CoverFoxLog - entering mobNum
+2024-01-17 12:45:51,823 [main] INFO CoverFoxLog - clicking on continue button
+2024-01-17 12:46:00,067 [main] INFO CoverFoxLog - fetching result from text
+2024-01-17 12:46:08,669 [main] INFO CoverFoxLog - fetching result from banner
+2024-01-17 12:46:15,765 [main] INFO CoverFoxLog - TC is passed
+2024-01-17 12:46:16,036 [main] INFO CoverFoxLog - closing browser
+2024-01-17 12:47:14,666 [main] INFO CoverFoxLog - launching CoverFox
+2024-01-17 12:47:24,113 [main] INFO CoverFoxLog - clicking on female button
+2024-01-17 12:47:27,466 [main] WARN CoverFoxLog - clicking on next button
+2024-01-17 12:47:29,815 [main] INFO CoverFoxLog - selecting age from dropDown
+2024-01-17 12:47:31,790 [main] INFO CoverFoxLog - clicking on next button
+2024-01-17 12:47:33,922 [main] ERROR CoverFoxLog - entering zipcode
+2024-01-17 12:47:34,234 [main] FATAL CoverFoxLog - entering mobNum
+2024-01-17 12:47:34,475 [main] INFO CoverFoxLog - clicking on continue button
+2024-01-17 12:47:42,632 [main] INFO CoverFoxLog - fetching result from text
+2024-01-17 12:47:51,280 [main] INFO CoverFoxLog - fetching result from banner
+2024-01-17 12:47:58,385 [main] INFO CoverFoxLog - TC is passed
+2024-01-17 12:47:58,679 [main] INFO CoverFoxLog - closing browser
+2024-01-17 12:52:28,904 [main] INFO CoverFoxLog - launching CoverFox
+2024-01-17 12:52:42,199 [main] INFO CoverFoxLog - clicking on female button
+2024-01-17 12:52:45,377 [main] WARN CoverFoxLog - clicking on next button
+2024-01-17 12:52:47,590 [main] INFO CoverFoxLog - selecting age from dropDown
+2024-01-17 12:52:50,136 [main] INFO CoverFoxLog - clicking on next button
+2024-01-17 12:52:52,265 [main] ERROR CoverFoxLog - entering zipcode
+2024-01-17 12:52:52,566 [main] FATAL CoverFoxLog - entering mobNum
+2024-01-17 12:52:53,217 [main] INFO CoverFoxLog - clicking on continue button
+2024-01-17 12:53:01,490 [main] INFO CoverFoxLog - fetching result from text
+2024-01-17 12:53:10,072 [main] INFO CoverFoxLog - fetching result from banner
+2024-01-17 12:53:17,184 [main] INFO CoverFoxLog - TC is passed
+2024-01-17 12:53:17,481 [main] INFO CoverFoxLog - closing browser
+2024-01-17 12:57:09,491 [main] INFO CoverFoxLog - launching CoverFox
+2024-01-17 12:57:19,919 [main] INFO CoverFoxLog - clicking on female button
+2024-01-17 12:57:23,032 [main] WARN CoverFoxLog - clicking on next button
+2024-01-17 12:57:25,395 [main] INFO CoverFoxLog - selecting age from dropDown
+2024-01-17 12:57:27,507 [main] INFO CoverFoxLog - clicking on next button
+2024-01-17 12:57:29,638 [main] ERROR CoverFoxLog - entering zipcode
+2024-01-17 12:57:29,871 [main] FATAL CoverFoxLog - entering mobNum
+2024-01-17 12:57:30,100 [main] INFO CoverFoxLog - clicking on continue button
+2024-01-17 12:57:38,211 [main] INFO CoverFoxLog - fetching result from text
+2024-01-17 12:57:46,827 [main] INFO CoverFoxLog - fetching result from banner
+2024-01-17 12:57:53,933 [main] INFO CoverFoxLog - TC is passed
+2024-01-17 12:57:54,140 [main] INFO CoverFoxLog - closing browser

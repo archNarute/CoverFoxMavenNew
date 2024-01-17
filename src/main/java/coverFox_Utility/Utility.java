@@ -34,7 +34,8 @@ public class Utility
 	public static String readDataFromExcel(int row, int cell) throws EncryptedDocumentException, IOException
 	{
 		Reporter.log("reading data from excel", true);
-		FileInputStream myfile=new FileInputStream("C:\\Users\\Dell\\Desktop\\velocity\\Book1.xlsx");
+		//FileInputStream myfile=new FileInputStream("C:\\Users\\Dell\\Desktop\\velocity\\Book1.xlsx");
+		FileInputStream myfile=new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\Book1.xlsx");
        Sheet mySheet = WorkbookFactory.create(myfile).getSheet("Sheet2");
        String data = mySheet.getRow(row).getCell(cell).getStringCellValue();
        return data;

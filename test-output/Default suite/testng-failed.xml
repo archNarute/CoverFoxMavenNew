@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="coverFox_Test.Validate_result_for_healthCare2withLog4j">
+      <class name="coverFox_Test.Validate_result_for_healthCare2_using_propertyfile">
         <methods>
+          <include name="validateResultFromTextAndBanner"/>
           <include name="enterRequiredDetails"/>
           <include name="closeTheBrowser"/>
           <include name="openBrowser"/>
-          <include name="validateResultFromTextAndBanner"/>
         </methods>
-      </class> <!-- coverFox_Test.Validate_result_for_healthCare2withLog4j -->
+      </class> <!-- coverFox_Test.Validate_result_for_healthCare2_using_propertyfile -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -37,7 +37,9 @@ public class Validate_result_for_healthCare2withLog4j extends Base{
 	public void openBrowser() throws InterruptedException
 	{   
 		logger=logger.getLogger("CoverFoxLog");
-	    PropertyConfigurator.configure("Log4j.properties");
+		//PropertyConfigurator.configure("Log4j.properties");
+		
+		PropertyConfigurator.configure(getClass().getProtectionDomain().getCodeSource().getLocation().getPath() + "Log4j.properties");
 		logger.info("launching CoverFox");
 		launchCoverfox();
 		home=new CoverFoxHomePage(driver);
@@ -65,7 +67,8 @@ public class Validate_result_for_healthCare2withLog4j extends Base{
 		
 		//Reporter.log("selecting age from dropDown", true);
 		logger.info("selecting age from dropDown");
-		memberDetail.selectAgeFromDropDown(Utility.readDataFromExcel(1, 0));
+		//memberDetail.selectAgeFromDropDown(Utility.readDataFromExcel(1, 0));
+		memberDetail.selectAgeFromDropDown(Utility.readDataFromPropertiesFile("age"));
 		//Reporter.log("clicking on next button", true);
 		logger.info("clicking on next button");
 		memberDetail.clickOnNextButton();
@@ -73,10 +76,12 @@ public class Validate_result_for_healthCare2withLog4j extends Base{
 		
 		//Reporter.log("entering zipcode", true);
 		logger.error("entering zipcode");
-		addressDetail.enterPinCode(Utility.readDataFromExcel(1, 1));
+		//addressDetail.enterPinCode(Utility.readDataFromExcel(1, 1));
+		memberDetail.selectAgeFromDropDown(Utility.readDataFromPropertiesFile("pincode"));
 		//Reporter.log("entering mobNum", true);
 		logger.fatal("entering mobNum");
-		addressDetail.enterMobNum(Utility.readDataFromExcel(1, 2));
+		//addressDetail.enterMobNum(Utility.readDataFromExcel(1, 2));
+		memberDetail.selectAgeFromDropDown(Utility.readDataFromPropertiesFile("mobnum"));
 		//Reporter.log("clicking on continue button", true);
 		logger.info("clicking on continue button");
 		addressDetail.clickOnContinueButton();

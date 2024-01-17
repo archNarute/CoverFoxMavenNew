@@ -20,19 +20,19 @@
       <![CDATA[saving ss atC:\Users\Dell\Desktop\velocity\ss_coverfox_TC_555_1970.01.01.05.30.00.png]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-01-12T13:18:36 IST" name="Default suite" finished-at="2024-01-12T13:19:39 IST" duration-ms="62205">
+  <suite started-at="2024-01-17T12:57:09 IST" name="Default suite" finished-at="2024-01-17T12:57:59 IST" duration-ms="50610">
     <groups>
     </groups>
-    <test started-at="2024-01-12T13:18:36 IST" name="Default test" finished-at="2024-01-12T13:19:39 IST" duration-ms="62205">
+    <test started-at="2024-01-17T12:57:09 IST" name="Default test" finished-at="2024-01-17T12:57:59 IST" duration-ms="50610">
       <class name="coverFox_Test.Validate_result_for_healthCare2withLog4j">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:coverFox_Test.Validate_result_for_healthCare2withLog4j@75d3a5e0]" started-at="2024-01-12T13:18:36 IST" name="openBrowser" finished-at="2024-01-12T13:18:58 IST" duration-ms="21620" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:coverFox_Test.Validate_result_for_healthCare2withLog4j@75d3a5e0]" started-at="2024-01-17T12:57:09 IST" name="openBrowser" finished-at="2024-01-17T12:57:19 IST" duration-ms="10801" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[browser is launching]]>
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="enterRequiredDetails()[pri:0, instance:coverFox_Test.Validate_result_for_healthCare2withLog4j@75d3a5e0]" started-at="2024-01-12T13:18:58 IST" name="enterRequiredDetails" finished-at="2024-01-12T13:19:11 IST" duration-ms="12930" status="PASS">
+        <test-method is-config="true" signature="enterRequiredDetails()[pri:0, instance:coverFox_Test.Validate_result_for_healthCare2withLog4j@75d3a5e0]" started-at="2024-01-17T12:57:19 IST" name="enterRequiredDetails" finished-at="2024-01-17T12:57:32 IST" duration-ms="12275" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[reading data from excel]]>
@@ -45,7 +45,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- enterRequiredDetails -->
-        <test-method signature="validateResultFromTextAndBanner()[pri:0, instance:coverFox_Test.Validate_result_for_healthCare2withLog4j@75d3a5e0]" started-at="2024-01-12T13:19:11 IST" name="validateResultFromTextAndBanner" finished-at="2024-01-12T13:19:33 IST" duration-ms="21998" status="PASS">
+        <test-method signature="validateResultFromTextAndBanner()[pri:0, instance:coverFox_Test.Validate_result_for_healthCare2withLog4j@75d3a5e0]" started-at="2024-01-17T12:57:32 IST" name="validateResultFromTextAndBanner" finished-at="2024-01-17T12:57:54 IST" duration-ms="21938" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[taking ss]]>
@@ -55,7 +55,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- validateResultFromTextAndBanner -->
-        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:coverFox_Test.Validate_result_for_healthCare2withLog4j@75d3a5e0]" started-at="2024-01-12T13:19:33 IST" name="closeTheBrowser" finished-at="2024-01-12T13:19:39 IST" duration-ms="5468" status="PASS">
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:coverFox_Test.Validate_result_for_healthCare2withLog4j@75d3a5e0]" started-at="2024-01-17T12:57:54 IST" name="closeTheBrowser" finished-at="2024-01-17T12:57:59 IST" duration-ms="5499" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTheBrowser -->
